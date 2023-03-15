@@ -25,3 +25,4 @@ class Exp(MyExp):
         self.data_num_workers = 1
 
         self.input_size = (224, 224)
+        self.test_size = (224, 224)
