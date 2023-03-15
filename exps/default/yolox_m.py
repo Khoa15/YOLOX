@@ -13,3 +13,15 @@ class Exp(MyExp):
         self.depth = 0.67
         self.width = 0.75
         self.exp_name = os.path.split(os.path.realpath(__file__))[1].split(".")[0]
+        
+
+        self.data_dir = "datasets/VOFI_imgs"
+        self.train_ann = "train.json"
+        self.val_ann = "val.json"
+
+        self.num_classes = 1
+
+        self.max_epoch = 100
+        self.data_num_workers = 1
+
+        self.input_size = (224, 224)
